@@ -21,14 +21,14 @@ task:
       memory: 20G
 
   Checks_script:
-      - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/checks.sh)"
+      - bash -c "$(curl -sL https://raw.githubusercontent.com/MaxSLL/PitchBlack-CI/pb/scripts/checks.sh)"
 
   Sync_script:
-      - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/sync.sh)"
+      - bash -c "$(curl -sL https://raw.githubusercontent.com/MaxSLL/PitchBlack-CI/pb/scripts/sync.sh)"
 
   Build_script:
-      - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/build.sh)"
+      - bash -c "$(curl -sL https://raw.githubusercontent.com/MaxSLL/PitchBlack-CI/pb/scripts/build.sh)"
 
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutess)
-      - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/upload.sh)"
+      - bash -c "$(curl -sL https://raw.githubusercontent.com/MaxSLL/PitchBlack-CI/pb/scripts/upload.sh)"
