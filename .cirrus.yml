@@ -30,5 +30,5 @@ task:
       - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/build.sh)"
 
   Upload_script:
-      - export TIMEOUT=43200 # Link timeout (in minutes)
+      - export TIMEOUT=43200 # Link timeout (in minutess)
       - bash -c "$(curl -sL https://raw.githubusercontent.com/Nico170420/PitchBlack-CI/pb/scripts/upload.sh)"
