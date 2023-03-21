@@ -28,7 +28,7 @@ REPO="https://github.com/PitchBlackRecoveryProject/manifest_pb"                 
 Branch="android-12.1"                                                                                  #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
 Device="m21"                                                                                         #<--- Set Device Codename here
 OEM="samsung"                                                                                        #<--- Set Device Manufactor here
-DeviceTree="https://github.com/MaxSLL/recovery_pb_21.git"                            #<--- Put Device Tree Link here
+DeviceTree="https://github.com/MaxSLL/pb_215.git"                            #<--- Put Device Tree Link here
 DTBranch="main"                                                                                     #<--- Set the DT Branch Name here
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
