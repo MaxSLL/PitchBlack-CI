@@ -28,10 +28,9 @@ REPO="https://github.com/PitchBlackRecoveryProject/manifest_pb"                 
 Branch="android-11.0"                                                                                  #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
 Device="m21"                                                                                         #<--- Set Device Codename here
 OEM="samsung"                                                                                        #<--- Set Device Manufactor here
-DeviceTree="https://github.com/MaxSLL/recovery_m21"                            #<--- Put Device Tree Link here
+DeviceTree="https://github.com/MaxSLL/twrp_215"                            #<--- Put Device Tree Link here
 DTBranch="twrp-11"									#<--- Set the DT Branch Name here
-CommonTree="https://github.com/MaxSLL/recovery_universal9611-common"
-CTBranch="twrp-11"
+
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
 repo init -u https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0
@@ -42,7 +41,6 @@ repo sync --force-sync
 
 # Cloning the Device Tree
 git clone ${DeviceTree} -b ${DTBranch} device/${OEM}/${Device}
-git clone ${CommonTree} -b ${CTBranch} device/${OEM}/universal9611-common
 
 # Exit
 exit 0
