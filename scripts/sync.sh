@@ -29,7 +29,7 @@ Branch="android-11.0"                                                           
 Device="m21"                                                                                         #<--- Set Device Codename here
 OEM="samsung"                                                                                        #<--- Set Device Manufactor here
 DeviceTree="https://github.com/MaxSLL/twrp_215"                            #<--- Put Device Tree Link here
-DTBranch="twrp-11"									#<--- Set the DT Branch Name here
+DTBranch="pb-11"									#<--- Set the DT Branch Name here
 
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
